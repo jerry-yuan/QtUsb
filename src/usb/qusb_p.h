@@ -12,7 +12,7 @@
   #include <libusb-1.0/libusb.h>
   #include <hidapi.h>
 #else
-  #include <libusb/libusb.h>
+  #include <libusb-1.0/libusb.h>
   #include <hidapi/hidapi.h>
 #endif
 

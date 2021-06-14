@@ -3,6 +3,7 @@
 
 #include "qusbglobal.h"
 #include <QList>
+#include <QObject>
 
 // Stupid windows conflict
 #ifdef interface

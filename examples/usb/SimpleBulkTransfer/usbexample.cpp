@@ -37,8 +37,8 @@ void UsbExample::setupDevice()
     m_usb_dev->setLogLevel(QUsb::logDebug);
 
     //
-    m_filter.pid = 0x3748;
-    m_filter.vid = 0x0483;
+    m_filter.pid = 0x5751;
+    m_filter.vid = 0x1483;
 
     //
     m_config.alternate = 0;

@@ -1,6 +1,7 @@
 #include "qusb.h"
 #include "qusb_p.h"
 #include <QThread>
+#include <QDebug>
 
 #define DbgPrintError() qWarning("In %s, at %s:%d", Q_FUNC_INFO, __FILE__, __LINE__)
 #define DbgPrintFuncName()                 \
